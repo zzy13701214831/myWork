@@ -33,8 +33,8 @@
         "text": "前端页面制作以及交互设计",
         "caseImg": "assets/images/case3.jpg",
         "caseLink": {
-          "flag": false,
-          "link": "http://www.baidu.com"
+          "flag": true,
+          "link": "https://zzy13701214831.github.io/photowall/index.html"
         },
         "img":{
           "flag": false,
