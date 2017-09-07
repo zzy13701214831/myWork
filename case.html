@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="web前端,case,Nero简历">
+    <meta name="description" content="WEB前端">
+    <meta name="author" content="Nero">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Nero's Work</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/case.css">
+</head>
+<body>
+    <div class="wrap">
+        <!--loading-->
+        <div id="loader" class="loader-container">
+            <div class="loader"></div>
+        </div>
+        <header class="navbar-custom">
+            <div class="navbar-container fix">
+                <a class="nav-icon fl" href="https://github.com/" target="_blank" title="进入gitHub官网">
+                    <i class="icon iconfont icon-github"></i>
+                </a>
+                <ul class="fix fr">
+                    <li class="fr"><a href="#">前端导航</a></li>
+                    <li class="fr"><a href="#">案例</a></li>
+                    <li class="fr"><a href="http://www.zzyfun.com">关于我</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <section class="content-container" id="contentContainer">
+	        <ul class="fix">
+                <li class="owl-item fl" v-for="item in caseList">
+                    <div class="item">
+                        <img v-bind:src='item.caseImg' alt="">
+                        <div class="overlay">
+                            <h4>{{item.caseTitle}}</h4>
+                            <p>{{item.text}}</p>
+                            <div class="overlay-bottom">
+                                <a v-if=item.img.flag href="javascript:void(0)" title="详情">
+                                    <i class="icon iconfont icon-xiangce"></i>
+                                </a>
+                                <a v-if=item.caseLink.flag v-bind:href="item.caseLink.link" target="_blank" title="链接">
+                                    <i class="icon iconfont icon-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+	        <!--返回顶部-->
+            <div class="back-top" v-on:click="goTop">
+                <a id="backTop" href="javascript:void(0)" title="返回顶部">
+                    <i class="icon iconfont icon-back-top"></i>
+                </a>
+            </div>
+        </section>
+
+        <footer>
+            <p>更多精彩，敬请移步<a href="https://github.com/zzy13701214831">GitHub</a></p>
+        </footer>
+    </div>
+	<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/vue/2.4.2/vue.js"></script>
+    <script src="https://cdn.bootcss.com/vue-resource/1.3.4/vue-resource.js"></script>
+    <script src="js/case.js"></script>
+</body>
+</html>

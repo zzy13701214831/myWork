@@ -1,0 +1,59 @@
+{
+  "status":1,
+  "result": {
+    "module": [
+      {
+        "caseTitle": "基于websocket的火拼俄罗斯游戏",
+        "text": "来比一比谁才是火拼达人！",
+        "caseImg": "assets/images/case1.png",
+        "caseLink": {
+          "flag": true,
+          "link": "http://www.zzyfun.com/Tetrix/index.html"
+        },
+        "img": {
+          "flag": false,
+          "link": ""
+        }
+      },
+      {
+        "caseTitle": "AI算法人机大战五子棋",
+        "text": "听说你下五子棋挺厉害？",
+        "caseImg": "assets/images/case2.png",
+        "caseLink": {
+          "flag": true,
+          "link": "http://www.zzyfun.com/Work/Chess/index.html"
+        },
+        "img":{
+          "flag": false,
+          "link": ""
+        }
+      },
+      {
+        "caseTitle": "可以拖拽的照片墙",
+        "text": "前端页面制作以及交互设计",
+        "caseImg": "assets/images/case3.jpg",
+        "caseLink": {
+          "flag": false,
+          "link": "http://www.baidu.com"
+        },
+        "img":{
+          "flag": false,
+          "link": ""
+        }
+      },
+      {
+        "caseTitle": "2048私人订制",
+        "text": "来一发2048，国庆不回家！",
+        "caseImg": "assets/images/case4.png",
+        "caseLink": {
+          "flag": true,
+          "link": "https://zzy13701214831.github.io/2048game/"
+        },
+        "img":{
+          "flag": false,
+          "link": ""
+        }
+      }
+    ]
+  }
+}
