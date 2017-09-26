@@ -21,7 +21,7 @@
         "caseImg": "assets/images/case2.png",
         "caseLink": {
           "flag": true,
-          "link": "http://www.zzyfun.com/Work/Chess/index.html"
+          "link": "https://zzy13701214831.github.io/ChessAI/AI/index.html"
         },
         "img":{
           "flag": false,
@@ -50,8 +50,8 @@
           "link": "https://zzy13701214831.github.io/2048game/"
         },
         "img":{
-          "flag": false,
-          "link": ""
+          "flag": true,
+          "link": "https://zzy13701214831.github.io/2048game/"
         }
       }
     ]
