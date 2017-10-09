@@ -50,8 +50,8 @@
           "link": "https://zzy13701214831.github.io/2048game/"
         },
         "img":{
-          "flag": true,
-          "link": "https://zzy13701214831.github.io/2048game/"
+          "flag": false,
+          "link": ""
         }
       }
     ]
