@@ -53,6 +53,19 @@
           "flag": false,
           "link": ""
         }
+      },
+      {
+        "caseTitle": "美食美刻网页",
+        "text": "前端静态页面设计制作",
+        "caseImg": "assets/images/case5.png",
+        "caseLink": {
+          "flag": true,
+          "link": "https://zzy13701214831.github.io/Done/Meishimeike/index.html"
+        },
+        "img":{
+          "flag": true,
+          "link": "https://zzy13701214831.github.io/Done/Meishimeike/login.html"
+        }
       }
     ]
   }

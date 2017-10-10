@@ -38,7 +38,7 @@
                             <h4>{{item.caseTitle}}</h4>
                             <p>{{item.text}}</p>
                             <div class="overlay-bottom">
-                                <a v-if=item.img.flag href="javascript:void(0)" title="详情">
+                                <a v-if=item.img.flag v-bind:href="item.img.link" title="详情">
                                     <i class="icon iconfont icon-xiangce"></i>
                                 </a>
                                 <a v-if=item.caseLink.flag v-bind:href="item.caseLink.link" target="_blank" title="链接">
