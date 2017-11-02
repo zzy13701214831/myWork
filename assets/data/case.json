@@ -66,6 +66,19 @@
           "flag": true,
           "link": "https://zzy13701214831.github.io/Done/Meishimeike/login.html"
         }
+      },
+      {
+        "caseTitle": "看你有多色",
+        "text": "玩一玩心跳吧，挑战你的眼力极限",
+        "caseImg": "assets/images/case6.png",
+        "caseLink": {
+          "flag": true,
+          "link": "https://zzy13701214831.github.io/eyes-game/Colorful/index.html"
+        },
+        "img":{
+          "flag": true,
+          "link": "https://zzy13701214831.github.io/eyes-game/Arrow/index.html"
+        }
       }
     ]
   }
