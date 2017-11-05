@@ -79,6 +79,19 @@
           "flag": true,
           "link": "https://zzy13701214831.github.io/eyes-game/Arrow/index.html"
         }
+      },
+      {
+        "caseTitle": "数独九宫格",
+        "text": "头脑风暴，挑战数独传奇",
+        "caseImg": "assets/images/case7.png",
+        "caseLink": {
+          "flag": true,
+          "link": "https://zzy13701214831.github.io/sudoku/www/index.html"
+        },
+        "img":{
+          "flag": false,
+          "link": "https://zzy13701214831.github.io/sudoku/www/index.html"
+        }
       }
     ]
   }
